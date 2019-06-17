@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="120px"
+        android:text="@string/selecione"
+        android:textColor="#12609E"
+        android:textSize="20sp"/>
+
+    <RadioButton
+        android:id="@+id/button_cafe"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="120px"
+        android:layout_marginLeft="120px"
+        android:text="@string/cafe"
+        android:textColor="#12609E" />
+
+    <RadioButton
+        android:id="@+id/button_cafeLeite"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20px"
+        android:layout_marginLeft="120px"
+        android:text="@string/cafe_com_leite"
+        android:textColor="#12609E" />
+
+    <RadioButton
+        android:id="@+id/button_cappuccino"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20px"
+        android:layout_marginLeft="120px"
+        android:text="@string/cappuccino"
+        android:textColor="#12609E" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="102dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/button_menos"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="180px"
+            android:layout_marginTop="50px"
+            android:text="-"
+            android:textColor="#12609E"
+            android:textSize="36sp" />
+
+        <TextView
+            android:id="@+id/text_quantidade"
+            android:layout_width="300px"
+            android:layout_height="100px"
+            android:layout_marginTop="75px"
+            android:background="#93E4EE"
+            android:text=""
+            android:textSize="36sp" />
+
+        <Button
+            android:id="@+id/button_mais"
+            android:layout_width="74dp"
+            android:layout_height="65dp"
+            android:layout_marginTop="50px"
+            android:layout_marginRight="180px"
+            android:text="+"
+            android:textColor="#12609E"
+            android:textSize="26sp" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="355dp"
+        android:layout_height="55dp"
+        android:layout_margin="20dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="30pt"
+            android:layout_height="20pt"
+            android:layout_marginLeft="20px"
+            android:layout_marginBottom="20px"
+            android:background="#60B0F0"
+            android:text="@string/pre_o_unit_rio"
+            android:textAlignment="center"
+            android:textColor="@android:color/white" />
+
+        <TextView
+            android:id="@+id/text_precoUni"
+            android:layout_width="55dp"
+            android:layout_height="100px"
+            android:layout_marginLeft="50dp"
+            android:background="#93E4EE"
+            android:text="" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="355dp"
+        android:layout_height="55dp"
+        android:layout_margin="20dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="30pt"
+            android:layout_height="20pt"
+            android:layout_marginLeft="20px"
+            android:layout_marginBottom="20px"
+            android:background="#60B0F0"
+            android:text="@string/pre_o_total"
+            android:textAlignment="center"
+            android:textColor="@android:color/white" />
+
+        <TextView
+            android:id="@+id/text_precoTotal"
+            android:layout_width="55dp"
+            android:layout_height="100px"
+            android:layout_marginLeft="50dp"
+            android:background="#93E4EE"
+            android:text="" />
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:text="@string/pedido"
+        android:textColor="#1A7AA5"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/text_mensagem"
+        android:layout_width="362dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="20dp"
+        android:textSize="24sp"
+        android:text="@string/mensagem" />
+
+    <Button
+        android:id="@+id/button_pedido"
+        android:layout_width="116dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:background="#60B0F0"
+        android:text="FAZER PEDIDO"
+        android:textColor="@android:color/white" />
+
+</LinearLayout>

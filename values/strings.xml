@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Cafe</string>
+    <string name="selecione">SELECIONE SEU CAFÉ E A QUANTIDADE</string>
+    <string name="cafe">Café</string>
+    <string name="cafe_com_leite">Cafe com leite</string>
+    <string name="cappuccino">Cappuccino</string>
+    <string name="pre_o_unit_rio">Preço Unitário</string>
+    <string name="pre_o_total">Preço Total</string>
+    <string name="mensagem">Gostaria de x cafés. Por Favor. O valor total será de R$8,00. Obrigado</string>
+    <string name="pedido">Pedido</string>
+</resources>
